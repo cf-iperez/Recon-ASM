@@ -30,13 +30,13 @@ echo -e "$BYellow|                 by Ignacio Pérez                   |"
 echo -e "$BYellow|----------------------------------------------------|"
 
 #Tools path
-findomain=/usr/bin/findomain
-subfinder=/usr/bin/subfinder
-amass=/usr/bin/amass
-assetfinder=/usr/bin/assetfinder
-waybackurls=/usr/bin/waybackurls
-hakrevdns=/usr/bin/hakrevdns
-metabigor=/usr/bin/metabigor
+findomain=bin/findomain
+subfinder=bin/subfinder
+amass=bin/amass
+assetfinder=bin/assetfinder
+waybackurls=bin/waybackurls
+hakrevdns=bin/hakrevdns
+metabigor=bin/metabigor
 
 read -p "Put the Project Name: " projName
 read -p "Put the domain to search: " domain
