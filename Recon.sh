@@ -38,7 +38,7 @@ waybackurls=bin/waybackurls
 hakrevdns=bin/hakrevdns
 metabigor=bin/metabigor
 
-directory_name=~/Desktop/Projcts
+directory_name=~/Desktop/Projects
 
 if [ -d "$directory_name" ]; then
    echo "$directory_name Directory already exists" ;
