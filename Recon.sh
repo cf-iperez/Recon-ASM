@@ -38,12 +38,14 @@ waybackurls=bin/waybackurls
 hakrevdns=bin/hakrevdns
 metabigor=bin/metabigor
 
-directory_name = "~/Desktop/Projcts"
+directory_name=~/Desktop/Projcts
 
-if [[ ! -e $directory_name ]]; then
-     mkdir $directory_name
+if [ -d "$directory_name" ]; then
+   echo "$directory_name Directory already exists" ;
+else
+   mkdir -p $directory_name;
+    echo "$directory_name directory has been created"
 fi
-
 
 
 read -p "Put the Project Name: " projName
