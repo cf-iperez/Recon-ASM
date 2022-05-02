@@ -95,7 +95,7 @@ then
 
 	echo -e  "$BYellow--------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
-	echo -e  "$BGreen Your search has been finished and saved in ~/Desktop/Projects/" + $projName
+	echo -e  "$BGreen Your search has been finished and saved in ~/Desktop/Projects/"$projName
 
 else
 	echo -e  "$BRed Please, put some domain to launch the recon-tools!"
