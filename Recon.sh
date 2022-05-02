@@ -38,8 +38,6 @@ waybackurls=bin/waybackurls
 hakrevdns=bin/hakrevdns
 metabigor=bin/metabigor
 
-read -p "Put the Project Name: " projName
-read -p "Put the domain to search: " domain
 directory_name = "~/Desktop/Projcts"
 
 if [ -d $directory_name ]
@@ -48,6 +46,10 @@ then
 else
     mkdir $directory_name
 fi
+
+
+read -p "Put the Project Name: " projName
+read -p "Put the domain to search: " domain
 
 
 if [ "$domain" != "" ]
