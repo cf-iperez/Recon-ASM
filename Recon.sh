@@ -40,12 +40,10 @@ metabigor=bin/metabigor
 
 directory_name = "~/Desktop/Projcts"
 
-if [ -d $directory_name ]
-then
-    echo "Directory already exists"
-else
-    mkdir $directory_name
+if [[ ! -e $directory_name ]]; then
+     mkdir $directory_name
 fi
+
 
 
 read -p "Put the Project Name: " projName
