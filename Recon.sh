@@ -40,13 +40,13 @@ metabigor=bin/metabigor
 
 read -p "Put the Project Name: " projName
 read -p "Put the domain to search: " domain
-dir = "~/Desktop/Projcts"
+directory_name = "~/Desktop/Projcts"
 
-if [ ! -d $dir ]
+if [ -d $directory_name ]
 then
-     mkdir $dir
+    echo "Directory already exists"
 else
-     echo "Directory exists"
+    mkdir $directory_name
 fi
 
 
