@@ -1,12 +1,12 @@
 # ReconASM
  Automated DNS tools for recon
 
-## Copy binaries
+## Binaries permissions
 
-Go to downloaded folder and copy the binaries in /usr/bin folder:
+Go to downloaded folder and get permissions to the binaries:
 ```
-sudo cp bin/* /usr/bin
 chmod +x Recon.sh
+chmod +x bin/*
 ```
 
 For execute, just run:
